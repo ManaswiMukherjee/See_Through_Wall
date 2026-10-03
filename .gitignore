@@ -1,0 +1,42 @@
+# ==========================================
+# ESP-IDF Build & Configuration Output
+# ==========================================
+# Build output directory containing binaries, object files, and maps
+/build/
+
+# Auto-generated project configuration files
+# (Commit 'sdkconfig.defaults' instead)
+/sdkconfig
+/sdkconfig.old
+/sdkconfig.ci
+
+# ==========================================
+# ESP Component Manager
+# ==========================================
+# Automatically downloaded dependencies
+/managed_components/
+
+# ==========================================
+# IDE & Editor Files
+# ==========================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Eclipse / ESP-IDF Eclipse Plugin
+/.settings/
+/.project
+/.cproject
+
+# ==========================================
+# Operating System & Environment
+# ==========================================
+.DS_Store
+Thumbs.db
+*.log
+__pycache__/
+*.pyc
